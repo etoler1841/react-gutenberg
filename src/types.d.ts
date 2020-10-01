@@ -1,9 +1,6 @@
-
 export interface IWPGBlock {
-  blockName: string | null
-  attrs: any[] | {
-    [k:string]: any
-  }
+  blockName: string | null
+  attrs: any
   innerBlocks: IWPGBlock[]
   innerHTML: string
 }
